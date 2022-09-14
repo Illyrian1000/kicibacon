@@ -139,3 +139,9 @@ header p{
 label{
     font-weight: bold;
 }
+
+@media only screen and (max-width: 1400px) {
+    .leo-png, .leo-png2{
+        display: none;
+    }
+  }
