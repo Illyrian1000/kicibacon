@@ -1,0 +1,141 @@
+body, html{
+    margin: none;
+    padding: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin: auto;
+    width: 600px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.logo-png{
+    width: 100px;
+}
+
+.topButtons{
+    margin-left: 30px;
+    background-color: lightblue;
+    padding: 5px 10px;
+    border-radius: 3px;
+    
+    
+} .topButtons:hover{
+    padding: 6px 11px;
+    cursor: pointer;
+    font-weight:bolder;
+    box-shadow: 1px 2px lightgray;
+}
+
+.leo-png{
+    position: absolute;
+    left: 180px;
+    top: 120px;
+    height: 700px;
+    width: 200px;
+}
+
+.leo-png2{
+    position: absolute;
+    right: 180px;
+    top: 120px;
+    height: 700px;
+    width: 200px;
+}
+
+.allmighty{
+    margin: auto;
+    width: 600px;
+    background-color: lightblue;
+    padding: 30px 0 50px 0;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.container-1{
+    margin: auto;
+    width: 400px;
+}
+
+#name, #surname {
+    padding: 5px 5px;
+    font-size: 14px;
+    width: 182px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.contract-type-option{
+    display: flex;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.country-options{
+    margin-bottom: 20px;
+}
+
+form{
+    padding-left: 10px;
+}
+
+#country{
+    border: 1px solid black;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.top-buttons-container{
+    padding-left: 10px;
+}
+/*  second container */
+
+.container-2{
+    margin:auto;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.output{
+    margin: 20px 0;
+    border: 0px 1px solid black;
+    position: relative;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.cell{
+    color: black;
+    font-size: 18px;
+}
+
+.copy{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 4px;
+} .copy:hover {
+    font-weight: bold;
+}
+
+
+header p{
+    font-size: 20px;
+    margin: 30px 10px;
+}
+
+.contact{
+    margin-left: 40px;
+}
+
+label{
+    font-weight: bold;
+}

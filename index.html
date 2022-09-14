@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo-png" src="logo.png" alt="">
+        <img class="leo-png" src="leo spa.png" alt="">
+        <img class="leo-png2" src="leo spa.png" alt="">
+        <p class="topButtons"> Kontakt</p>
+        <p class="topButtons"> Cunat e elpdeskut</p>
+        <p class="topButtons">FAQ</p>
+        
+
+    </header>
+
+    <div class="allmighty">
+        <div class="container-1">
+
+            <div>
+                <input id="name" type="text" placeholder="Name">
+                <input id="surname" type="text" placeholder="Surname">
+            </div>
+            
+    
+            <div class="country-options">
+                <div class="contract-type-option">
+                    <p>ANPE <input type="checkbox" name="ANPE" id="contract-type"></p>
+                </div>
+        
+                <form action="">
+                    <label for="country">Choose a country</label>
+                    <select name="country" id="country">
+                        <option value="sisal-albania">Sisal Albania</option>
+                        <option value="sisal-italia">Sisal Italia</option>
+                        <option value="sisal-turchia">Sisal Turchia</option>
+                        <option value="sisal-marocco">Sisal Marocco</option>
+                        <option value="sisal-spain">Sisal Spain</option>
+                    </select>
+                </form>
+            </div>
+            
+            <div class="top-buttons-container">
+
+
+
+
+                <!--- butonat clear dhe submit-->
+            <button onclick="location.reload()">Clear</button>
+            <button id="submitButton" onclick="myFunction()">Submit</button>
+            </div>
+    
+        </div>
+    
+        <div class="container-2">
+    
+            <div class="output">
+                <span id="nameOutput" class="cell">Name</span>
+                <button class="copy" onclick="copyFunction('nameOutput')">Copy</button>
+            </div>
+            
+            <div class="output">
+                <span id="surnameOutput" class="cell">Surname</span>
+                <button class="copy" onclick="copyFunction('surnameOutput')">Copy</button>
+            </div>
+    
+            <div class="output">
+                <span id="fullNameOutput" class="cell">Full Name</span>
+                <button class="copy" onclick="copyFunction('fullNameOutput')">Copy</button>
+            </div>
+    
+    
+            <div class="output">
+                <span id="logonNameOutput" class="cell">Logon Name</span>
+                <button class="copy" onclick="copyFunction('logonNameOutput')">Copy</button>
+            </div>
+    
+            
+            <div class="output">
+                <span id="emailOutput" class="cell">Email</span>
+                <button class="copy" onclick="copyFunction('emailOutput')">Copy</button>
+            </div>
+            
+            <div class="output">
+                <span id="utenteExchangeOutput" class="cell">Utente Exchange</span>
+                <button class="copy" onclick="copyFunction('utenteExchangeOutput')">Copy</button>
+            </div>
+            
+    
+        </div>
+    </div>
+
+    
+
+
+
+    <footer>
+
+    </footer>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
